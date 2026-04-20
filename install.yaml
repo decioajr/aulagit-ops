@@ -31513,6 +31513,7 @@ spec:
     port: 443
     protocol: TCP
     targetPort: 8080
+  Type: LoadBalancer  
   selector:
     app.kubernetes.io/name: argocd-server
 ---
