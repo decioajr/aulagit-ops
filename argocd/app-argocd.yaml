@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/decioajr/aulagit-ops.git
     path: argocd
-    targetRevision: main
+    targetRevision: HEAD
     #directory:
       #recurse: true
   destination:
